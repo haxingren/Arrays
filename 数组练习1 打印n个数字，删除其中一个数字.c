@@ -21,10 +21,13 @@ int main()
 		if (arr[i] != del)
 		{
 			arr[j++] = arr[i];
-			printf("%d ", arr[j]);
-
 		}
 	}
+	for (i = 0; i < j; i++)
+	{
+		printf("%d ", arr[i]);
+	}
+			
 	
 	return 0;
 }
